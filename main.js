@@ -5,7 +5,7 @@ function setup() {
   background('#3B3B3B');
   
   var protection = 0;
-  amount = Math.ceil(random(200,500));
+  amount = Math.round(random(200,500));
   document.getElementById("amount").innerHTML = amount;
   
   while (stars.length < amount) {
