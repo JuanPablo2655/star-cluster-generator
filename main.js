@@ -1,8 +1,13 @@
 var stars = [];
+var grid;
+
+function preload() {
+  grid = loadImage("cluster_map_template.png");
+}
 
 function setup() {
   createCanvas(1366, 768);
-  background('#3B3B3B');
+  background(grid);
   
   var protection = 0;
   amount = Math.round(random(200,500));
