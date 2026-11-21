@@ -1,1 +1,1 @@
-# star-cluster-generator
+# spiral-galaxy-generator
